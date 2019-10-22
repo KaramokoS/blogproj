@@ -14,6 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEMPLATE_DIR = os.path.join(BASE_DIR,'dakuoblog/templates/dakuoblog')
 
 
 # Quick-start development settings - unsuitable for production
@@ -25,7 +26,7 @@ SECRET_KEY = 'q%878+p&bqk^6v(ctucfqr8v603d0!d72wip(i+=dpww9bd2t-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dakouo.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','dakouo.herokuapp.com']
 
 
 # Application definition
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'blogperso.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATE_DIR,],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
