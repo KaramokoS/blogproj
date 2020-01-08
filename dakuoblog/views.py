@@ -5,5 +5,5 @@ from django.shortcuts import render
 def home(request):
     return render(request, 'dakuoblog/base.html', {})
 
-def about_owner(request):
-    return render(request, 'dakuoblog/about.html', {})
+def expo(request):
+    return render(request, 'dakuoblog/expositions.html', {})

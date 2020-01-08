@@ -1,51 +1,7 @@
-<!DOCTYPE html>
+
+{% extends 'entete.html'%}
 {% load staticfiles %}
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title> Ange DAKUO </title>
-
-  <!-- Custom fonts for this theme -->
-  <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Theme CSS -->
-  <link rel="stylesheet" href="{% static "/css/freelancer.css" %}" />
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Ange DAKOUO </a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Ouevres D'art </a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">A propos </a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+{% block content%}
 
   <!-- Masthead -->
   <header class="masthead bg-primary bg-primary-sam text-white text-center">
@@ -187,11 +143,32 @@
 
       <!-- About Section Content -->
       <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">Ange DAKOUO est un ingénieur informaticien qui fait de l'art plastique Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Na .</p>
+        <div class="col-lg-6 ml-auto">
+          <p class="lead">Ange DAKOUO
+
+            Né en 1990 à Abidjan, Côte d’Ivoire. Vit et travaille à Bamako.
+            Ange Dakouo, de son nom complet Losso Marie-Ange Dakouo, est diplômé du Conservatoire des Arts et Métiers Multimédia de Bamako  d’où il sort major de sa promotion en 2017. Ange a d’abord travaillé de manière figurative avant de développer son travail actuel, qu’il nomme les  « gris-gris tissés », à partir de 2018.
+            Il a reçu une distinction en 2015, notamment, lauréat du premier prix de la 9ème édition du concours national « Talents de la cité » dans la catégorie peinture.
+            Ange est un des fondateurs du collectif Tim’Arts avec lequel il expose régulièrement à Bamako, Ségou, Dakar. Son travail a par exemple été présenté au Salon d’Art Contemporain de Ségou, Ségou ’Art en 2016 et 2019 ; récemment  dans le cadre de l’exposition « Les tisseurs de liens » à la BICIM, Bamako et cette année même il participe à la Foire AKAA, dans l’exposition « Hier est la mémoire de demain ».
+            Ange compte à son actif deux expositions solos, respectivement, « Les boites rouges » à Taxi Bamako en 2018 et « Demain sera meilleur » à la Villa Soudan en 2019.
+            <br>
+            Artiste protéiforme et curieux, Ange Dakouo travaille le dessin, la peinture, la sculpture ou encore la vidéo, testant toujours plus de techniques et de matériaux qu’il colle, frotte ou tisse.
+            En observant le travail d’Ange Dakouo, nous pourrions penser à une sculpture de textile, rappelant celles d’Abdoulaye Konate ou les installations d’El Anatsui.
+            Elève d’Abdoulaye Konate au conservatoire des arts et métiers multimédia Balla Fasséké Kouyaté de Bamako, Ange Dakouo admire la maitrise de l’équilibre, la justesse des nuances et les jeux de couleurs de son mentor.
+          </p>
         </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Na</p>
+        <div class="col-lg-6 mr-auto">
+          <p class="lead">
+          La technicité méticuleuse des œuvres d’El Anatsui lui donne cette volonté de pousser ses recherches toujours plus loin et l’envie de se dépasser. Car en regardant de plus près le travail d’Ange Dakouo, nous découvrons un travail fin, soigne et singulier.
+          Fils d’imprimeur, Ange Dakouo s’empare tout naturellement du journal en papier pour créer ses ≪ gris-gris ≫.
+          <br>
+
+          Trace du passe, archive d’une mémoire, le journal qui les compose fige l’histoire et la transporte dans le temps. Ephémère et fragile, cette matière est pour l’artiste à l’image de la vie humaine. Car c’est un ≪ univers harmonieux ≫ des liens tisses montrant l’interaction entre les uns et les autres que souhaite représenter Ange Dakouo. Tissés les uns aux autres, ces petits rectangles rappellent l’amulette protectrice de l’enfant nouveau-né. Il est commun, même systématique, qu’à la naissance d’un enfant, celle-ci soit attachée à son poignet ou à son cou. Les ≪ gris-gris ≫ d’Ange Dakouo rappellent aussi les amulettes protectrices qui composent les tenues des chasseurs traditionnels en Afrique de l’Ouest.
+          C’est d’ailleurs sur l’idéologie ésotérique, de cette confrérie que l’artiste a travaillé pour son mémoire de fin d’études.
+          Il s’est particulièrement intéressé a l’esthétique de ces tenues traditionnelles qui influenceront finalement une grande partie de son travail et font de ses ≪ gris-gris ≫ une œuvre d’une belle maturité.
+          <br>
+          © Armelle DAKOUO
+          </p>
         </div>
       </div>
     </div>
@@ -273,13 +250,13 @@
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4"> Suivez nous sur les réseaux sociaux</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="www.facebook.com">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/">
             <i class="fab fa-fw fa-facebook-f"></i>
           </a>
           <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/">
             <i class="fab fa-fw fa-twitter"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/feed/">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/">
             <i class="fab fa-fw fa-linkedin-in"></i>
           </a>
           <a class="btn btn-outline-light btn-social mx-1" href="#">
@@ -548,20 +525,4 @@
     </div>
   </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="{% static 'vendor/jquery/jquery.min.js'%}"></script>
-  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js'%}"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="{% static 'js/jqBootstrapValidation.js'%}"></script>
-  <script src="{% static 'js/contact_me.js'%}"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="{% static 'js/freelancer.min.js'%}"></script>
-
-</body>
-
-</html>
+  {% endblock %}
