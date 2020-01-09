@@ -9859,5 +9859,10 @@ form .row:first-child .floating-label-form-group {
 .exposition-page {
   padding-top: 5rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.essai {
+  color: #fff;
+  background-color: #1abc9c;
 }
