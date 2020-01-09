@@ -9854,3 +9854,10 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+
+.exposition-page {
+  padding-top: 5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
