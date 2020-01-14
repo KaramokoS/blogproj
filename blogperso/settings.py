@@ -26,7 +26,7 @@ SECRET_KEY = 'q%878+p&bqk^6v(ctucfqr8v603d0!d72wip(i+=dpww9bd2t-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','dakouo.herokuapp.com','0.0.0.0']
+ALLOWED_HOSTS = ['127.0.0.1','dakouo.herokuapp.com','0.0.0.0','www.angedakouo.com','angedakouo.com']
 
 
 # Application definition
