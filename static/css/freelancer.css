@@ -9861,7 +9861,10 @@ form .row:first-child .floating-label-form-group {
   font-size: 25px;
 }
 
-.essai {
+/*.essai:hover {
   color: #fff;
   background-color: #1abc9c;
+}*/
+section {
+  margin-top: 40px;
 }
