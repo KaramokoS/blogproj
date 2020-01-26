@@ -9851,8 +9851,14 @@ form .row:first-child .floating-label-form-group {
   color: #fff;
 }
 
+section {
+  margin-top: 40px;
+}
+
+
 .copyright {
   background-color: #1a252f;
+  margin-top: 0;
 }
 
 .exposition-page {
@@ -9865,6 +9871,3 @@ form .row:first-child .floating-label-form-group {
   color: #fff;
   background-color: #1abc9c;
 }*/
-section {
-  margin-top: 40px;
-}
